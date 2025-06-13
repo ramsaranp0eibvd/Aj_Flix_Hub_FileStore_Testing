@@ -96,6 +96,8 @@ QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4cd7c7d0960197aef7627-
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ajaytrams22")
 #--------------------------------------------
 #Time and its price
+#0 Day
+PRICE0 = os.environ.get("PRICE0", "0 rs")
 #1 Day
 PRICE1 = os.environ.get("PRICE1", "3 rs")
 #7 Days
