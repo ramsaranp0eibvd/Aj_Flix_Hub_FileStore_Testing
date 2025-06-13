@@ -96,16 +96,16 @@ QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4cd7c7d0960197aef7627-
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ajaytrams22")
 #--------------------------------------------
 #Time and its price
+#1 Day
+PRICE1 = os.environ.get("PRICE1", "3 rs")
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+PRICE2 = os.environ.get("PRICE2", "20 rs")
+#15 Days
+PRICE3 = os.environ.get("PRICE3", "35 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "60 rs")
+PRICE4 = os.environ.get("PRICE4", "50 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "150 rs")
-#6 Month
-PRICE4 = os.environ.get("PRICE4", "280 rs")
-#1 Year
-PRICE5 = os.environ.get("PRICE5", "550 rs")
+PRICE5 = os.environ.get("PRICE5", "100 rs")
 
 #===================(END)========================#
 
