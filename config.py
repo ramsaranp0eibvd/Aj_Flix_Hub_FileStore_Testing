@@ -40,8 +40,8 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/459d7f73407f3117
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/81fc0f241bd48043abd6e-a6731acd0114b4d303.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkcents.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "dcf236d194a18677517677ac586db7ad83c084be")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortner.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "fab9be6c561c1a4d9da3add5d11bd36feec34824")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Open_LinkCents_Linkz/2")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
