@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8085621344:AAFXKIya_ejdhVaCpd8VWn8aXMqCkDzn-tY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8085621344:AAGmcaOzY3cDHsdAXT2IToKaurOgw0Sa494")
 APP_ID = int(os.environ.get("APP_ID", "28814392")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "38d09c28822aa20a56c43c4b492efba6") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -40,8 +40,8 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/459d7f73407f3117
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/81fc0f241bd48043abd6e-a6731acd0114b4d303.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortner.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "fab9be6c561c1a4d9da3add5d11bd36feec34824")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "2acd9fbb9d3c10afb314d621e7b5de5790059918")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Open_LinkCents_Linkz/2")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
