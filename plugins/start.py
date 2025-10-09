@@ -66,6 +66,17 @@ async def start_command(client: Client, message: Message):
     id = message.from_user.id
     is_premium = await is_premium_user(id)
 
+    # Add user if not already present
+    if not await db.present_user(user_id):
+        try:
+            await db.add_user(user_id)
+        except:
+            pass
+
+    # ✅ Check Force Subscription
+    if not await is_subscribed(client, user_id):
+        return await not_joined(client, message)
+
     # Check if user is banned
     banned_users = await db.get_ban_users()
     if user_id in banned_users:
@@ -77,19 +88,8 @@ async def start_command(client: Client, message: Message):
             )
         )
 
-    # ✅ Check Force Subscription
-    if not await is_subscribed(client, user_id):
-        return await not_joined(client, message)
-
     # File auto-delete time in seconds
     FILE_AUTO_DELETE = await db.get_del_timer()
-
-    # Add user if not already present
-    if not await db.present_user(user_id):
-        try:
-            await db.add_user(user_id)
-        except:
-            pass
 
     # Handle normal message flow
     text = message.text
